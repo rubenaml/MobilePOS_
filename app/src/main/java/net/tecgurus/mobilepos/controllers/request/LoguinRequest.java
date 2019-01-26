@@ -30,6 +30,9 @@ public class LoguinRequest extends Request {
     @Override
     protected void onResult(String result) {
 
+          if(onResult!=null){
+              onResult.onLoginSuccess();
+          }
     }
 
     @Override
@@ -38,7 +41,7 @@ public class LoguinRequest extends Request {
         final  String json= gson.toJson(this.loginRequestModel);
 
        // final String result=this.requestManager.post("http://localhost:8080/jdeventas/Login",json);
-        final String result=this.requestManager.post("http://192.168.220.2:8080/jdeventas/Login",json);
+        final String result=this.requestManager.post("http://192.168.100.77:8080/jdeventas/Login",json);
 
         this.onResult(result);
 
