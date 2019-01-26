@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "555239611965",
+    "firebase_url": "https://ventas-7f89f.firebaseio.com",
+    "project_id": "ventas-7f89f",
+    "storage_bucket": "ventas-7f89f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555239611965:android:c6a9791c263c9bdc",
+        "android_client_info": {
+          "package_name": "net.tecgurus.mobilepos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555239611965-fin3ko60u9b5ncvkeh6q80bdacqiab3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.tecgurus.mobilepos",
+            "certificate_hash": "31763a4798c8cc705970c14bb1902962c12b935b"
+          }
+        },
+        {
+          "client_id": "555239611965-cj6nq00s0qoa2kak5oath1u7pf0lq1tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJlOQ734tFY1hcSw7JxmX8NPbsex9ko8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555239611965-cj6nq00s0qoa2kak5oath1u7pf0lq1tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

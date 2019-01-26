@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_menu_button_lista_cliente"/>
+        <Button
+            android:id="@+id/btnConsultaPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_menu_button_consulta_pedidos"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/btnConsultaFacturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_menu_button_consulta_factura"/>
+    </LinearLayout>
+</RelativeLayout>
